@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e84395c1dc082438a74b78189ebc71, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  Type: 0
+  Name: Blaster
+  Damage: 5
+  ClipSize: 5
+  CurrentAmmo: -97
+  CurrentClipAmmo: 100
+  ModelPrefab: {fileID: 2608220730580322468, guid: 4b5c33d4e051fd647ab296d191e7fe8b, type: 3}
+  SpawnPoint: {x: 0.594, y: 0.619, z: 0.478}
+  SpawnRotation: {x: 0, y: 180, z: 0}
+  ShootConfig: {fileID: 11400000, guid: 63b35954b889e5149b7e7d987a3d4008, type: 2}
+  TrailConfig: {fileID: 11400000, guid: 6f8e68cc61512324aac6db5c7ce260d0, type: 2}
